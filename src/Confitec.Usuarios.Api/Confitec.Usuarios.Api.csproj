@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Confitec.Usuarios.Application\Confitec.Usuarios.Application.csproj" />
-    <ProjectReference Include="..\src\Confitec.Usuarios.Infra\Confitec.Usuarios.Infra.csproj" />
+    <ProjectReference Include="..\Confitec.Usuarios.Application\Confitec.Usuarios.Application.csproj" />
+    <ProjectReference Include="..\Confitec.Usuarios.Infra\Confitec.Usuarios.Infra.csproj" />
   </ItemGroup>
 
 </Project>

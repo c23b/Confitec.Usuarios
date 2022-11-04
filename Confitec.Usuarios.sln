@@ -7,17 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DABC6B2E-67E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AFE5ECC6-B186-4144-BEDA-CCA821CCA688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Usuarios.Tests", "tests\Confitec.Usuarios.Tests\Confitec.Usuarios.Tests.csproj", "{F0ADAC42-69E7-48A1-81DD-939B867A5442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Usuarios.Tests", "tests\Confitec.Usuarios.Tests\Confitec.Usuarios.Tests.csproj", "{F0ADAC42-69E7-48A1-81DD-939B867A5442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Usuarios.Domain", "src\Confitec.Usuarios.Domain\Confitec.Usuarios.Domain.csproj", "{01FC1FEE-E7C6-4CC1-8D70-ABD3FE6B9F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Usuarios.Domain", "src\Confitec.Usuarios.Domain\Confitec.Usuarios.Domain.csproj", "{01FC1FEE-E7C6-4CC1-8D70-ABD3FE6B9F4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Usuarios.Core", "src\Confitec.Usuarios.Core\Confitec.Usuarios.Core.csproj", "{19BAB357-D580-4AEE-AB17-38A5DC5481BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Usuarios.Core", "src\Confitec.Usuarios.Core\Confitec.Usuarios.Core.csproj", "{19BAB357-D580-4AEE-AB17-38A5DC5481BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Usuarios.Application", "src\Confitec.Usuarios.Application\Confitec.Usuarios.Application.csproj", "{6332A128-9DE8-4478-B0BF-766EBDDA66E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Usuarios.Application", "src\Confitec.Usuarios.Application\Confitec.Usuarios.Application.csproj", "{6332A128-9DE8-4478-B0BF-766EBDDA66E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Usuarios.Infra", "src\Confitec.Usuarios.Infra\Confitec.Usuarios.Infra.csproj", "{4352E1B8-129D-4C7A-B844-E4898123844C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Usuarios.Infra", "src\Confitec.Usuarios.Infra\Confitec.Usuarios.Infra.csproj", "{4352E1B8-129D-4C7A-B844-E4898123844C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confitec.Usuarios.Api", "Confitec.Usuarios.Api\Confitec.Usuarios.Api.csproj", "{BBCA3E4C-A477-4363-92D1-9B2897238945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confitec.Usuarios.Api", "src\Confitec.Usuarios.Api\Confitec.Usuarios.Api.csproj", "{B136AFB9-6A98-42B9-A1D6-B533746A18B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,10 @@ Global
 		{4352E1B8-129D-4C7A-B844-E4898123844C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4352E1B8-129D-4C7A-B844-E4898123844C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4352E1B8-129D-4C7A-B844-E4898123844C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BBCA3E4C-A477-4363-92D1-9B2897238945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBCA3E4C-A477-4363-92D1-9B2897238945}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBCA3E4C-A477-4363-92D1-9B2897238945}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBCA3E4C-A477-4363-92D1-9B2897238945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B136AFB9-6A98-42B9-A1D6-B533746A18B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B136AFB9-6A98-42B9-A1D6-B533746A18B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B136AFB9-6A98-42B9-A1D6-B533746A18B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B136AFB9-6A98-42B9-A1D6-B533746A18B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,7 +59,7 @@ Global
 		{19BAB357-D580-4AEE-AB17-38A5DC5481BF} = {DABC6B2E-67E2-4FBE-8574-D22A26F861C2}
 		{6332A128-9DE8-4478-B0BF-766EBDDA66E0} = {DABC6B2E-67E2-4FBE-8574-D22A26F861C2}
 		{4352E1B8-129D-4C7A-B844-E4898123844C} = {DABC6B2E-67E2-4FBE-8574-D22A26F861C2}
-		{BBCA3E4C-A477-4363-92D1-9B2897238945} = {DABC6B2E-67E2-4FBE-8574-D22A26F861C2}
+		{B136AFB9-6A98-42B9-A1D6-B533746A18B1} = {DABC6B2E-67E2-4FBE-8574-D22A26F861C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAF94C5D-2DB1-4D7B-9BEF-15F90BC27305}
